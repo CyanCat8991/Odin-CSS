@@ -26,3 +26,7 @@ div {
   
   /* several unique declarations */
 }
+
+.subsection.header {
+    color: red;
+  }
