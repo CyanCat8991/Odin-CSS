@@ -1,6 +1,7 @@
 div {
+    /*should apply to all divs*/
     color: purple;
-  }
+}
 
  .alert-text {
   color: red;
@@ -12,6 +13,7 @@ div {
 
 .read,
 .unread {
+    /*applies to both read and unread*/
     color: white;
     background-color: black;
   }
@@ -28,5 +30,6 @@ div {
 }
 
 .subsection.header {
+    /* having both only looks for a component has both*/
     color: red;
   }
